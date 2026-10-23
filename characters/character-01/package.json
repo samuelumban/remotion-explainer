@@ -1,0 +1,23 @@
+{
+  "name": "character-01-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio",
+    "still": "remotion still MainStill out/main.png",
+    "render": "remotion render Main out/main.mp4",
+    "convert": "python3 tools/ae2remotion.py INPUT.jsx src/library \"name:Character 01 Basic\" && python3 tools/apply_outfits.py src/library"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.537",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.5.0",
+    "acorn": "^8.19.0",
+    "astring": "^1.9.0"
+  }
+}

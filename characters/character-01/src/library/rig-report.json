@@ -1,0 +1,750 @@
+{
+ "expressions": [
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_HAND L",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_HAND R",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_BODY",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nT=W(10);\n\nBT=W(20);\n\n[tran"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_HEAD",
+   "props": [
+    "ADBE Scale"
+   ],
+   "first": "//////BEGIN SLIDER CODE//////\nfunction slider (inputValue){\nvar contrl = thisComp.layer(\"M"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_FEET L",
+   "props": [
+    "ADBE Position",
+    "ADBE Scale"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_FEET R",
+   "props": [
+    "ADBE Position",
+    "ADBE Scale"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Head",
+   "props": [
+    "ADBE Scale"
+   ],
+   "first": "[100,100]"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyes Position",
+   "props": [
+    "ADBE Scale"
+   ],
+   "first": "[100,100]"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyebrows",
+   "props": [
+    "ADBE Scale"
+   ],
+   "first": "[100,100]"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyes",
+   "props": [
+    "Pseudo/EVT4.1 Eyes Control-0003",
+    "Pseudo/EVT4.1 Eyes Control-0004",
+    "Pseudo/EVT4.1 Eyes Control-0007",
+    "Pseudo/EVT4.1 Eyes Control-0008",
+    "Pseudo/EVT4.1 Eyes Control-0009",
+    "Pseudo/EVT4.1 Eyes Control-0010",
+    "Pseudo/EVT4.1 Eyes Control-0012"
+   ],
+   "first": "effect(\"EVT4.1 Eyes Control\")(3)+effect(\"EVT4.1 Eyes Control\")(2);"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Limbs",
+   "props": [
+    "Pseudo/EVT4.1 Limbs Control-0002",
+    "Pseudo/EVT4.1 Limbs Control-0003",
+    "Pseudo/EVT4.1 Limbs Control-0004",
+    "Pseudo/EVT4.1 Limbs Control-0005",
+    "Pseudo/EVT4.1 Limbs Control-0008",
+    "Pseudo/EVT4.1 Limbs Control-0009",
+    "Pseudo/EVT4.1 Limbs Control-0010",
+    "Pseudo/EVT4.1 Limbs Control-0011",
+    "Pseudo/EVT4.1 Limbs Control-0024",
+    "Pseudo/EVT4.1 Limbs Control-0025"
+   ],
+   "first": "W=effect(\"EVT4.1 Limbs Control\");\n\nA=thisComp.layer(\"Arms Length AdjustmentMW\").effect(\"Ar"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Eyebrows Position",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Arms Length AdjustmentMW",
+   "props": [
+    "ADBE Slider Control-0001"
+   ],
+   "first": "//////BEGIN SLIDER CODE//////\nfunction slider (inputValue){\nvar contrl = thisComp.layer(\"M"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Mouth Adjustment",
+   "props": [
+    "ADBE Position",
+    "ADBE Scale"
+   ],
+   "first": "//////BEGIN SLIDER CODE//////\nfunction slider (inputValue){\nvar contrl = thisComp.layer(\"M"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyebrows Origin",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "/////BEGIN LIMIT CODE//////\n     temp = thisComp.layer(\"Ctrl Eyebrows\")(\"ADBE Effect Parad"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyes Position Origin",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "/////BEGIN LIMIT CODE//////\n     temp = thisComp.layer(\"Ctrl Eyes Position\")(\"ADBE Effect "
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Head Origin",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "/////BEGIN LIMIT CODE//////\n     temp = thisComp.layer(\"Ctrl Head\")(\"ADBE Effect Parade\")("
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "HAND L",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "FOREARM L",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "HAND R",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "FOREARM R",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyebrowR",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyebrowL",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyeR",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyeR2",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyeL",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyeL2",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "hairFront",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "noseShape",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "mouth",
+   "props": [
+    "ADBE Position",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "beard",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "hairMiddle",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "faceShape",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z",
+    "ADBE Scale"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "earL",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ear R",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "NECK",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(17);\n\nL=W(5);\n\nBT=W(2"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "BODY 2",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(16);\n\nL=W(4);\n\nT=W(10"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "BODY 1",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(16);\n\nL=W(4);\n\nT=W(10"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "UPPER ARM L",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "UPPER ARM R",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(14);\n\nL=W(2);\n\nT=W(8)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "FEET L2",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "thisComp.layer(\"FEET L\").transform.anchorPoint"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "FEET L",
+   "props": [
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "CLAF L",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "THIGH L",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "FEET R2",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "thisComp.layer(\"FEET R\").transform.anchorPoint"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "FEET R",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "CLAF R",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "THIGH R",
+   "props": [
+    "ADBE Anchor Point",
+    "ADBE Position",
+    "ADBE Rotate Z"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(15);\n\nL=W(3);\n\nT=W(9)"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "BODY BACK",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=thisComp.layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL=W(16);\n\nL=W(4);\n\nT=W(10"
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "hairBack",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "/////// BEGIN JOYSTICK CODE ///////\nfunction joystick(inputResult){\n    var easeOverride_r"
+  },
+  {
+   "comp": "Forearm L",
+   "layer": "Forearm",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Forearm R",
+   "layer": "Forearm",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Neck",
+   "layer": "Neck",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Body 2",
+   "layer": "Body Top",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nL"
+  },
+  {
+   "comp": "Hips",
+   "layer": "Hips 2",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nT"
+  },
+  {
+   "comp": "Hips",
+   "layer": "Hips",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nT"
+  },
+  {
+   "comp": "Body",
+   "layer": "Body Top",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nL"
+  },
+  {
+   "comp": "Upper Arm L",
+   "layer": "Upper Arm",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Upper Arm R",
+   "layer": "Upper Arm",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Feet L",
+   "layer": "Feet",
+   "props": [
+    "ADBE Scale"
+   ],
+   "first": "comp(\"name:Character 01 Basic\").layer(\"C_FEET L\").transform.scale"
+  },
+  {
+   "comp": "Calf L",
+   "layer": "calfTexture2",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL="
+  },
+  {
+   "comp": "Calf L",
+   "layer": "Calf",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Thigh L",
+   "layer": "Tigh",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Feet R",
+   "layer": "Feet 2",
+   "props": [
+    "ADBE Scale"
+   ],
+   "first": "comp(\"name:Character 01 Basic\").layer(\"C_FEET R\").transform.scale"
+  },
+  {
+   "comp": "Calf R",
+   "layer": "calfTexture3",
+   "props": [
+    "ADBE Position"
+   ],
+   "first": "W=comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nBL="
+  },
+  {
+   "comp": "Calf R",
+   "layer": "Calf",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Thigh R",
+   "layer": "Tigh",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\n["
+  },
+  {
+   "comp": "Body Back",
+   "layer": "Body Top",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "W = comp(\"name:Character 01 Basic\").layer(\"Ctrl Limbs\").effect(\"EVT4.1 Limbs Control\");\n\nL"
+  },
+  {
+   "comp": "Texture MAN NORMIE",
+   "layer": "Calf",
+   "props": [
+    "ADBE Vector Rect Size"
+   ],
+   "first": "thisComp.layer(\"Thigh\").content(\"Rectangle 1\").content(\"Rectangle Path 1\").size"
+  }
+ ],
+ "effects": [
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_HAND L",
+   "effects": [
+    "Pseudo/EVT4.1 Rig Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_HAND R",
+   "effects": [
+    "Pseudo/EVT4.1 Rig Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_FEET L",
+   "effects": [
+    "Pseudo/EVT4.1 Rig Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "C_FEET R",
+   "effects": [
+    "Pseudo/EVT4.1 Rig Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Head",
+   "effects": [
+    "ADBE Slider Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyes Position",
+   "effects": [
+    "ADBE Slider Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyebrows",
+   "effects": [
+    "ADBE Slider Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Eyes",
+   "effects": [
+    "Pseudo/EVT4.1 Eyes Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Ctrl Limbs",
+   "effects": [
+    "Pseudo/EVT4.1 Limbs Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Man Woman Slider",
+   "effects": [
+    "ADBE Slider Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "Arms Length AdjustmentMW",
+   "effects": [
+    "ADBE Slider Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "eyeR",
+   "effects": [
+    "ADBE Geometry2"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "UPPER ARM L",
+   "effects": [
+    "ADBE Angle Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "UPPER ARM R",
+   "effects": [
+    "ADBE Angle Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "THIGH L",
+   "effects": [
+    "ADBE Angle Control"
+   ]
+  },
+  {
+   "comp": "name:Character 01 Basic",
+   "layer": "THIGH R",
+   "effects": [
+    "ADBE Angle Control"
+   ]
+  },
+  {
+   "comp": "Hand L",
+   "layer": "handTexture1",
+   "effects": [
+    "ADBE Pro Levels2"
+   ]
+  },
+  {
+   "comp": "Hand R",
+   "layer": "handTexture3",
+   "effects": [
+    "ADBE Pro Levels2"
+   ]
+  }
+ ],
+ "skipped": [],
+ "evaluated": {
+  "properties": 111,
+  "errors": [],
+  "assumption": "EVT4.1 Limbs Control params 14-21 (hidden base values) assumed equal to params 2-5 / 8-11"
+ }
+}
