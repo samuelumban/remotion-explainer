@@ -1,0 +1,18 @@
+{
+ "scenery": {
+  "Ground - 3": "RoadSpecks1",
+  "Ground - 4": "RoadSpecks2",
+  "Ground - 5": "RoadSpecks3",
+  "Ground 2": "Road",
+  "Shape Layer 2": "Sky",
+  "Shape Layer 1": "SkyBackdrop",
+  "BG SHADOWS": "BackClouds"
+ },
+ "sections": {
+  "road-specks-3": "Jalan (bintik tekstur)",
+  "steam": "Props jalan & halaman",
+  "house-2-1": "Rumah (2 samping + 1 tengah)",
+  "bush-2": "Semak & pohon",
+  "back-clouds": "Latar belakang (awan biru, langit)"
+ }
+}

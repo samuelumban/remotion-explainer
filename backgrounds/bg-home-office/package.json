@@ -1,0 +1,22 @@
+{
+  "name": "bg-home-office-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BG Home Office (converted from After Effects BGHOME_1.JSX) as Remotion components",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "still": "remotion still src/index.ts BGHomeOffice-Still out/bg-home-office.png",
+    "render": "remotion render src/index.ts BGHomeOffice out/bg-home-office.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "typescript": "^5.4.0"
+  }
+}
