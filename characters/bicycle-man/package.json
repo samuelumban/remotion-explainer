@@ -1,0 +1,26 @@
+{
+  "name": "bicycle-man-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert": "node tools/jsx-to-scene.mjs ./04BICY_1.JSX public/scene.json",
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts BicycleMan out/bicycle-man.mp4",
+    "still": "remotion still src/index.ts BicycleMan out/frame.png --frame=60",
+    "verify": "tsx scripts/verify-proportion.mts"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.250",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.250"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "18.3.3",
+    "sharp": "^0.33.0",
+    "tsx": "^4.19.0",
+    "typescript": "5.5.4"
+  }
+}

@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import { renderToStaticMarkup } from 'react-dom/server';
+import sharp from 'sharp';
+import { Runtime } from '../src/engine/runtime';
+import { buildSvg } from '../src/engine/render';
+const scene = JSON.parse(fs.readFileSync('public/scene.json', 'utf8'));
+const rt = new Runtime(scene);
+const t = +(process.argv[2] ?? 1), out = process.argv[3] ?? '/tmp/frame.png';
+const t0 = Date.now();
+const svg = renderToStaticMarkup(buildSvg(rt, t));
+console.log('svg bytes', svg.length, 'ms', Date.now() - t0, 'errors', [...rt.errors].slice(0, 5));
+fs.writeFileSync(out.replace('.png', '.svg'), svg);
+await sharp(Buffer.from(svg)).png().toFile(out);
+console.log('wrote', out);
