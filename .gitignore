@@ -1,0 +1,9 @@
+# Dihasilkan otomatis saat npm install / render
+node_modules/
+out/
+dist/
+.cache/
+.remotion/
+# File sistem
+.DS_Store
+Thumbs.db
